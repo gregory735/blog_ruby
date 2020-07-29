@@ -1,5 +1,7 @@
 # README
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff167f6b0f734ace9dd64db4d7a47126)](https://app.codacy.com/manual/gregory735/blog_ruby?utm_source=github.com&utm_medium=referral&utm_content=gregory735/blog_ruby&utm_campaign=Badge_Grade_Settings)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
