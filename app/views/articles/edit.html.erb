@@ -1,6 +1,7 @@
-<h1>New Article</h1>
+<h1>Edit Article</h1>
 
-<%= form_with scope: :article, url: articles_path, local: true do |form| %>
+<%= form_with(model: @article, local: true ) do |form| %>
+
     <% if @article.errors.any? %>
         <div id = "error_explanation">
             <h2>
@@ -17,17 +18,17 @@
     <% end %>
 
     <p>
-        <%= form.label :title, 'Título'%><br>
+        <%= form.label :title %><br>
         <%= form.text_field :title %>
     </p>
 
     <p>
-        <%= form.label :text,  'Texto' %><br>
+        <%= form.label :text %><br>
         <%= form.text_area :text %>
     </p>
 
     <p>
-        <%= form.submit 'Enviar' %>
+        <%= form.submit %>
     </p>
 <% end %>
 
