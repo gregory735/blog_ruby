@@ -1,3 +1,5 @@
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 require 'simplecov'
 SimpleCov.start
 
