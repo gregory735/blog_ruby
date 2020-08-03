@@ -8,33 +8,6 @@
         null,
         1
       ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/config/application.rb": [
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/config/boot.rb": [
-        1,
-        null,
-        1,
-        1
-      ],
       "/home/ramires/Repositorio/Ruby/blog_ruby/config/environments/test.rb": [
         null,
         null,
@@ -198,7 +171,7 @@
         null,
         null,
         1,
-        2,
+        0,
         null,
         null,
         null,
@@ -217,23 +190,36 @@
         1,
         null
       ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/app/helpers/application_helper.rb": [
+      "/home/ramires/Repositorio/Ruby/blog_ruby/test/controllers/articles_controller_test.rb": [
         1,
+        null,
+        1,
+        null,
+        null,
+        null,
         null
       ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/app/helpers/articles_helper.rb": [
+      "/home/ramires/Repositorio/Ruby/blog_ruby/test/controllers/welcome_controller_test.rb": [
         1,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
         null
       ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/app/helpers/comments_helper.rb": [
+      "/home/ramires/Repositorio/Ruby/blog_ruby/test/models/article_test.rb": [
         1,
-        null
-      ],
-      "/home/ramires/Repositorio/Ruby/blog_ruby/app/helpers/welcome_helper.rb": [
+        null,
         1,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1596214107
+    "timestamp": 1596217275
   }
 }
