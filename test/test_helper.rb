@@ -1,6 +1,6 @@
 require 'simplecov-cobertura'
-SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 require 'simplecov'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 SimpleCov.start
 
 ENV['RAILS_ENV'] ||= 'test'

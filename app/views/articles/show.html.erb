@@ -1,38 +1,18 @@
 <p>
-    <strong>Título:</strong>
-    <%= @article.title %>
+  <strong>Title:</strong>
+  <%= @article.title %>
 </p>
+ 
 <p>
-    <strong> Texto: </strong>
-    <%= @article.text %>
+  <strong>Text:</strong>
+  <%= @article.text %>
 </p>
-
-<h2>Comentario</h2>
-<% @article.comments.each do |comment| %>
-    <p>
-        <strong>Commenter:</strong>
-        <%= comment.commenter %>
-    </p>
-    <p>
-        <strong>Comment</strong>
-        <%= comment.body %>
-    </p>
-<% end %>
-
-<h2>Adicione um comentario</h2>
-<%= form_with(model: [ @article, @article.comments.build ], 
-                                            local: true) do |form| %>
-    <p>
-        <%= form.label :commenter %>
-        <%= form.text_field :commenter %>
-    </p>
-    <p>
-        <%= form.label :body %>
-        <%= form.text_area :body %>
-    </p>
-    <p>
-        <%= form.submit%>
-    </p>
-<% end %><br><br>
-<%= link_to 'Edit', edit_article_path(@article) %>
-<%= link_to 'voltar', articles_path %>
+ 
+<h2>Comments</h2>
+<%= render @article.comments %>
+ 
+<h2>Add a comment:</h2>
+<%= render 'comments/form' %>
+ 
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
